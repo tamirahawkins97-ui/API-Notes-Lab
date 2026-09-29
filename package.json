@@ -1,0 +1,30 @@
+{
+  "name": "api-notes-lab",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tamirahawkins97-ui/API-Notes-Lab.git"
+  },
+  "keywords": [],
+  "author": "Tamira Hawkins",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/tamirahawkins97-ui/API-Notes-Lab/issues"
+  },
+  "homepage": "https://github.com/tamirahawkins97-ui/API-Notes-Lab#readme",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "morgan": "^1.12.1",
+    "react-router-dom": "^7.18.4"
+  }
+}
